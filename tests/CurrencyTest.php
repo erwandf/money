@@ -110,7 +110,7 @@ class CurrencyTest extends \PHPUnit_Framework_TestCase
      */
     public function testDefaultFractionDigitsCanBeRetrieved(Currency $c)
     {
-        $this->assertEquals(4, $c->getDefaultFractionDigits());
+        $this->assertEquals(2, $c->getDefaultFractionDigits());
     }
 
     /**
