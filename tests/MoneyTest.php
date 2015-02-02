@@ -147,7 +147,7 @@ class MoneyTest extends \PHPUnit_Framework_TestCase
      */
     public function testCurrencyCanBeRetrieved(Money $m)
     {
-        $this->assertEquals(new Currency('EUR'), $m->getCurrency());
+        $this->assertEquals(new Currency('GBP'), $m->getCurrency());
     }
 
     /**
