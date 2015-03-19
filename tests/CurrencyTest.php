@@ -119,7 +119,7 @@ class CurrencyTest extends \PHPUnit_Framework_TestCase
      */
     public function testDisplayNameCanBeRetrieved(Currency $c)
     {
-        $this->assertEquals('Euro', $c->getDisplayName());
+        $this->assertEquals('Pound', $c->getDisplayName());
     }
 
     /**
